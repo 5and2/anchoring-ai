@@ -23,4 +23,4 @@ networks:
     external: true
 
   anchoring-ai_default:
-    external: true
+    external: false
