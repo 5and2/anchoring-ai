@@ -15,8 +15,12 @@ services:
       - "3000:3000"
     networks:
       - cloudflare_default
+      - anchoring-ai_default
     # other configurations...
 
 networks:
   cloudflare_default:
+    external: true
+
+  anchoring-ai_default:
     external: true
