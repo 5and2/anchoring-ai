@@ -22,5 +22,5 @@ networks:
   cloudflare_default:
     external: true
 
-  anchoring-ai_default:
-    external: false
+  #anchoring-ai_default:
+    #external: false
